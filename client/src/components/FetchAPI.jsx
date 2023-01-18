@@ -5,7 +5,7 @@ export const FetchAPI = () => {
     const [pokemon, setPokemon] = useState([])
 
     const handleFetch = () => {
-        fetch("https://pokeapi.co/api/v2/pokemon?limit=9")
+        fetch("https://pokeapi.co/api/v2/pokemon?limit=804")
             .then((res) => {
                 return res.json()
             })
